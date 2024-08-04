@@ -55,9 +55,19 @@ function UploadPage() {
           sx={{ 
             width: 'auto',
             height: '100%',
-            objectFit: 'cover',
+            objectFit: 'cover'
           }}
         />
+        <Box
+            onClick={handleBack}
+            sx={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '15%',
+              height: '10%', // This makes the clickable area the top 1/5 of the image
+            }}
+          />
         <Container 
           maxWidth={false} 
           disableGutters 

@@ -12,9 +12,8 @@ function UploadBox({ onFileUpload }) {  // Add onFileUpload as a prop here
 
   return (
     <Box sx={{ border: '2px solid #ccc', borderRadius: '20px', p: 5, textAlign: 'center' }}> 
-      <Box sx={{ border: '2px dashed #ccc', borderRadius: '20px', p: 20, textAlign: 'center' }}>
+      <Box sx={{ border: '2px dashed #ccc', borderRadius: '20px', p: 10, textAlign: 'center' }}>
         <img src={uploadIcon} alt="Upload Icon" style={{ width: '64px', height: 'auto' }} />
-        <br />
         <br />
         <Typography sx={{ fontSize: '15pt', fontWeight: 'bold' }}>Drag & Drop or Choose Files to Upload</Typography>
         <Typography variant="caption" sx={{ fontSize: '14pt' }}>Select .mp4 or .mov files</Typography>

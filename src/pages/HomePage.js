@@ -58,7 +58,7 @@ function HomePage() {
             <Typography variant="overline" gutterBottom>
               Your AI Curator
             </Typography>
-            <Typography variant="h3" gutterBottom fontWeight="bold">
+            <Typography variant="h2" gutterBottom fontWeight="bold">
               Let us help you with your videos{' '}
               <span role="img" aria-label="eyes">👀</span>
             </Typography>
@@ -75,12 +75,13 @@ function HomePage() {
                   bgcolor: '#000000',
                   color: 'common.white',
                   borderRadius: '50px',
-                  padding: '8px 8px',
-                  paddingLeft: '30px',
-                  paddingRight: '30px',
+                  padding: '12px 12px',
+                  paddingLeft: '70px',
+                  paddingRight: '70px',
                   '&:hover': {
                     bgcolor: 'grey.800',
                   },
+                  fontSize: '15pt'
                 }}
               >
                 Scan my video

@@ -83,7 +83,14 @@ function UploadPage() {
           >
             <CustomStepper />
             <Box sx={{ mt: 4, mb: 4 }}>
-              <Typography variant="h4" gutterBottom>
+              <Typography 
+                sx={{ 
+                  fontSize: '36pt', 
+                  fontWeight: 'bold',
+                  fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro", "SF Pro Display", sans-serif'
+                }} 
+                gutterBottom
+              >
                 Let's begin <span role="img" aria-label="waving hand">👋</span> 
               </Typography>
             </Box>

@@ -11,7 +11,7 @@ function NavigationButtons({ onBack, onContinue }) {
           borderColor: 'grey.400',
           color: 'text.primary',
           borderRadius: '50px',
-          padding: '8px 8px',
+          padding: '10px 10px',
           paddingLeft: '30px',
           paddingRight: '30px',
           '&:hover': {
@@ -29,7 +29,7 @@ function NavigationButtons({ onBack, onContinue }) {
           bgcolor: '#000000',
           color: 'common.white',
           borderRadius: '50px',
-          padding: '8px 8px',
+          padding: '10px 10px',
           paddingLeft: '30px',
           paddingRight: '30px',
           '&:hover': {
